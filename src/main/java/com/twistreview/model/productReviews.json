@@ -1,0 +1,343 @@
+{
+  "ret_pos_001": [
+    {
+      "id": "rev_001",
+      "userName": "Sarah Chen",
+      "rating": 5,
+      "title": "Excellent POS system for our retail store",
+      "comment": "We've been using this TouchPoint Pro for 8 months now and it's been fantastic. The interface is intuitive, our staff learned it quickly, and the real-time reporting has helped us make better business decisions. Customer support has been responsive whenever we've had questions.",
+      "date": "2024-12-15",
+      "verified": true,
+      "helpful": 23,
+      "avatar": "SC"
+    },
+    {
+      "id": "rev_002",
+      "userName": "Mike Rodriguez",
+      "rating": 4,
+      "title": "Great value, minor setup issues",
+      "comment": "Overall very satisfied with this POS system. The features are comprehensive and the price point is reasonable. Had some initial setup challenges with the payment processing integration, but tech support walked us through it. Would recommend for small to medium businesses.",
+      "date": "2024-11-28",
+      "verified": true,
+      "helpful": 18,
+      "avatar": "MR"
+    },
+    {
+      "id": "rev_003",
+      "userName": "Jennifer Walsh",
+      "rating": 5,
+      "title": "Perfect for multi-location management",
+      "comment": "We run 3 retail locations and this system has been a game-changer. The multi-location support works flawlessly, and having all our data in one place has streamlined our operations significantly. The cloud-based approach means we can monitor all stores from anywhere.",
+      "date": "2024-11-10",
+      "verified": true,
+      "helpful": 31,
+      "avatar": "JW"
+    },
+    {
+      "id": "rev_004",
+      "userName": "David Kim",
+      "rating": 3,
+      "title": "Good system but could be faster",
+      "comment": "The POS works well for our needs but can be a bit slow during peak hours. The touchscreen is responsive and the interface is clean. Customer service is good. For the price, it's decent but there might be faster options available.",
+      "date": "2024-10-22",
+      "verified": false,
+      "helpful": 9,
+      "avatar": "DK"
+    },
+    {
+      "id": "rev_005",
+      "userName": "Lisa Thompson",
+      "rating": 5,
+      "title": "Highly recommend!",
+      "comment": "This is our second TechTwist POS system (upgraded from an older model) and we couldn't be happier. The new features like integrated loyalty management have helped increase customer retention. Installation was smooth and training was minimal since the interface is so user-friendly.",
+      "date": "2024-10-05",
+      "verified": true,
+      "helpful": 27,
+      "avatar": "LT"
+    }
+  ],
+  "ret_scan_001": [
+    {
+      "id": "rev_006",
+      "userName": "Carlos Martinez",
+      "rating": 5,
+      "title": "Best barcode scanner we've used",
+      "comment": "The ScanMaster 2D Pro is incredibly fast and accurate. We scan hundreds of items daily and this scanner handles everything from tiny jewelry tags to large product labels without any issues. The wireless range is excellent too.",
+      "date": "2024-12-01",
+      "verified": true,
+      "helpful": 19,
+      "avatar": "CM"
+    },
+    {
+      "id": "rev_007",
+      "userName": "Amanda Foster",
+      "rating": 4,
+      "title": "Reliable and durable",
+      "comment": "We've had this scanner for over a year in our busy warehouse environment. It's been dropped multiple times and still works perfectly. Battery life is as advertised - easily lasts a full shift. Only minor complaint is the charging cable could be longer.",
+      "date": "2024-11-18",
+      "verified": true,
+      "helpful": 14,
+      "avatar": "AF"
+    },
+    {
+      "id": "rev_008",
+      "userName": "Robert Chen",
+      "rating": 5,
+      "title": "Perfect for our retail needs",
+      "comment": "Scans QR codes and barcodes flawlessly. The Bluetooth connection is stable and pairs easily with our POS system. Staff loves how lightweight it is compared to our old wired scanners. Great investment!",
+      "date": "2024-11-05",
+      "verified": true,
+      "helpful": 22,
+      "avatar": "RC"
+    }
+  ],
+  "hw_tele_001": [
+    {
+      "id": "rev_009",
+      "userName": "Dr. Patricia Williams",
+      "rating": 5,
+      "title": "Excellent telehealth platform",
+      "comment": "VirtualCare has transformed our practice. The video quality is crystal clear, patients find it easy to use, and the integration with our EMR system is seamless. The remote monitoring features have been particularly valuable for our chronic care patients.",
+      "date": "2024-12-08",
+      "verified": true,
+      "helpful": 42,
+      "avatar": "PW"
+    },
+    {
+      "id": "rev_010",
+      "userName": "Nurse Manager Kelly",
+      "rating": 4,
+      "title": "Great for patient engagement",
+      "comment": "Our patients love the convenience and the platform is very user-friendly. The prescription management feature saves us a lot of time. Occasionally have connectivity issues during peak hours, but overall very satisfied.",
+      "date": "2024-11-25",
+      "verified": true,
+      "helpful": 28,
+      "avatar": "KM"
+    },
+    {
+      "id": "rev_011",
+      "userName": "Dr. James Liu",
+      "rating": 5,
+      "title": "Essential for modern healthcare",
+      "comment": "This platform has been invaluable, especially for follow-up appointments and consultations. The patient portal integration is excellent and the security features give us confidence in HIPAA compliance. Highly recommend for any healthcare practice.",
+      "date": "2024-11-12",
+      "verified": true,
+      "helpful": 35,
+      "avatar": "JL"
+    }
+  ],
+  "fb_pos_001": [
+    {
+      "id": "rev_012",
+      "userName": "Restaurant Owner Tom",
+      "rating": 5,
+      "title": "Perfect for our restaurant",
+      "comment": "RestaurantPro has everything we need - table management, kitchen integration, split billing. Our servers picked it up quickly and it's made our operations much smoother. The reporting features help us track our busiest times and popular menu items.",
+      "date": "2024-12-03",
+      "verified": true,
+      "helpful": 26,
+      "avatar": "TO"
+    },
+    {
+      "id": "rev_013",
+      "userName": "Manager Sofia",
+      "rating": 4,
+      "title": "Good system with room for improvement",
+      "comment": "Overall we're happy with this POS. The table management is great and the kitchen display integration works well. Would like to see more customization options for the menu layout, but it does what we need it to do.",
+      "date": "2024-11-20",
+      "verified": true,
+      "helpful": 16,
+      "avatar": "SM"
+    }
+  ],
+  "ret_pos_002": [
+    {
+      "id": "rev_014",
+      "userName": "Store Manager Alex",
+      "rating": 5,
+      "title": "Outstanding performance and reliability",
+      "comment": "The FlexiPOS system has been running flawlessly for over a year now. The customizable interface lets us set it up exactly how we need it. Customer data management is excellent and the loyalty program integration has boosted our repeat business.",
+      "date": "2024-12-10",
+      "verified": true,
+      "helpful": 19,
+      "avatar": "AM"
+    },
+    {
+      "id": "rev_015",
+      "userName": "Business Owner Maria",
+      "rating": 4,
+      "title": "Great value for money",
+      "comment": "Very happy with this purchase. The hardware is solid and the software is intuitive. Setup was straightforward and the training materials were helpful. Only minor issue is occasional slowdown during peak hours.",
+      "date": "2024-11-15",
+      "verified": true,
+      "helpful": 12,
+      "avatar": "MG"
+    },
+    {
+      "id": "rev_016",
+      "userName": "Retail Manager Kim",
+      "rating": 5,
+      "title": "Excellent customer service experience",
+      "comment": "Not only is the product great, but the customer service team has been fantastic. They helped us migrate from our old system and provided excellent training. The real-time reporting has been a game-changer for our business.",
+      "date": "2024-10-28",
+      "verified": true,
+      "helpful": 15,
+      "avatar": "KS"
+    }
+  ],
+  "ret_pos_003": [
+    {
+      "id": "rev_017",
+      "userName": "Franchise Owner John",
+      "rating": 4,
+      "title": "Good for multi-location management",
+      "comment": "We use this across 4 locations and it works well. The centralized reporting is helpful for tracking performance across all stores. The mobile app lets us check on stores remotely. Could use better integration with our accounting software.",
+      "date": "2024-12-01",
+      "verified": true,
+      "helpful": 21,
+      "avatar": "JD"
+    },
+    {
+      "id": "rev_018",
+      "userName": "Operations Manager Lisa",
+      "rating": 5,
+      "title": "Streamlined our operations",
+      "comment": "This POS system has made our daily operations so much smoother. The inventory management features are particularly impressive - we can track stock levels in real-time and get alerts when items are running low.",
+      "date": "2024-11-22",
+      "verified": true,
+      "helpful": 18,
+      "avatar": "LK"
+    }
+  ],
+  "ret_pos_004": [
+    {
+      "id": "rev_019",
+      "userName": "Tech Director Sam",
+      "rating": 3,
+      "title": "Decent but has limitations",
+      "comment": "The system works for basic needs but lacks some advanced features we were hoping for. The interface is clean but not very customizable. Customer support is responsive but sometimes takes a while to resolve technical issues.",
+      "date": "2024-11-18",
+      "verified": true,
+      "helpful": 8,
+      "avatar": "ST"
+    },
+    {
+      "id": "rev_020",
+      "userName": "Store Owner Rachel",
+      "rating": 4,
+      "title": "Solid choice for small business",
+      "comment": "Perfect for our small boutique. Easy to use, reliable, and the price point is reasonable. The customer management features help us maintain relationships with our regular customers. Would recommend for small to medium businesses.",
+      "date": "2024-10-14",
+      "verified": true,
+      "helpful": 14,
+      "avatar": "RB"
+    }
+  ],
+  "ret_pos_005": [
+    {
+      "id": "rev_021",
+      "userName": "Chain Manager Paul",
+      "rating": 5,
+      "title": "Excellent enterprise solution",
+      "comment": "We've implemented this across our entire retail chain and it's been fantastic. The scalability is impressive and the enterprise features meet all our needs. The analytics dashboard provides valuable insights that help us make data-driven decisions.",
+      "date": "2024-12-05",
+      "verified": true,
+      "helpful": 32,
+      "avatar": "PM"
+    },
+    {
+      "id": "rev_022",
+      "userName": "IT Manager Jennifer",
+      "rating": 4,
+      "title": "Robust and feature-rich",
+      "comment": "Great system with lots of advanced features. The API integration capabilities are excellent for connecting with our other business systems. Occasional updates require system restarts but overall very stable.",
+      "date": "2024-11-08",
+      "verified": true,
+      "helpful": 17,
+      "avatar": "JC"
+    }
+  ],
+  "edu_lms_001": [
+    {
+      "id": "rev_023",
+      "userName": "Professor Williams",
+      "rating": 5,
+      "title": "Revolutionary learning platform",
+      "comment": "EduTech Pro has transformed how we deliver education. The interactive features keep students engaged, and the analytics help us track learning progress. The gradebook integration with our SIS saved us countless hours.",
+      "date": "2024-12-12",
+      "verified": true,
+      "helpful": 45,
+      "avatar": "PW"
+    },
+    {
+      "id": "rev_024",
+      "userName": "Dr. Sarah Miller",
+      "rating": 4,
+      "title": "Great for hybrid learning",
+      "comment": "Perfect solution for our hybrid learning model. Students can access content both in-class and remotely. The mobile app works well. Only wish the video streaming was more reliable during peak hours.",
+      "date": "2024-11-28",
+      "verified": true,
+      "helpful": 22,
+      "avatar": "SM"
+    },
+    {
+      "id": "rev_025",
+      "userName": "IT Director Mark",
+      "rating": 5,
+      "title": "Seamless integration and support",
+      "comment": "Implementation was smooth and the technical support team was excellent. Integrates well with our existing systems. The security features meet all our compliance requirements. Highly recommend for educational institutions.",
+      "date": "2024-11-15",
+      "verified": true,
+      "helpful": 28,
+      "avatar": "MD"
+    }
+  ],
+  "man_erp_001": [
+    {
+      "id": "rev_026",
+      "userName": "Plant Manager Robert",
+      "rating": 4,
+      "title": "Comprehensive manufacturing solution",
+      "comment": "ManufacturePro covers all our needs from inventory to production planning. The real-time dashboards are great for monitoring operations. Setup took longer than expected but the end result is worth it. Training for staff was comprehensive.",
+      "date": "2024-12-08",
+      "verified": true,
+      "helpful": 31,
+      "avatar": "RM"
+    },
+    {
+      "id": "rev_027",
+      "userName": "Operations Director Linda",
+      "rating": 5,
+      "title": "Excellent ROI and efficiency gains",
+      "comment": "The efficiency improvements we've seen since implementing this system are remarkable. Production scheduling is much more accurate, and waste has been reduced significantly. The mobile capabilities let us monitor from anywhere.",
+      "date": "2024-11-18",
+      "verified": true,
+      "helpful": 38,
+      "avatar": "LD"
+    }
+  ],
+  "fin_acc_001": [
+    {
+      "id": "rev_028",
+      "userName": "CFO Patricia",
+      "rating": 5,
+      "title": "Outstanding financial management tool",
+      "comment": "FinancePro has streamlined our entire accounting process. The automated reconciliation saves hours each month, and the financial reporting is comprehensive. Integration with our banking systems works flawlessly.",
+      "date": "2024-12-06",
+      "verified": true,
+      "helpful": 27,
+      "avatar": "PC"
+    },
+    {
+      "id": "rev_029",
+      "userName": "Accounting Manager Steve",
+      "rating": 4,
+      "title": "Powerful but steep learning curve",
+      "comment": "Very capable system with lots of advanced features. The learning curve was steep initially but the training provided was good. Customer support is responsive. Some reports could be more customizable.",
+      "date": "2024-11-24",
+      "verified": true,
+      "helpful": 19,
+      "avatar": "SG"
+    }
+  ]
+}
