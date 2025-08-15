@@ -1,9 +1,0 @@
-com\twistreview\dto\ProductReviewDTO.class
-com\twistreview\dto\ProductReviewMapper.class
-com\twistreview\HealthController.class
-com\twistreview\service\ProductReviewService.class
-com\twistreview\model\ProductReview.class
-com\twistreview\TwistreviewApplication.class
-com\twistreview\config\SecurityConfig.class
-com\twistreview\controller\ProductReviewController.class
-com\twistreview\config\MethodSecurityConfig.class
