@@ -1,0 +1,75 @@
+# Default values for twistreview.
+replicaCount: 1
+
+image:
+  repository: crostonj/techtwist-review
+  tag: "raspberry-pi"
+  pullPolicy: IfNotPresent
+  pullSecrets: []
+
+service:
+  type: ClusterIP
+  port: 8080
+  annotations: {}
+
+ingress:
+  enabled: false
+  className: ""
+  annotations: {}
+  hosts:
+    - host: twistreview.local
+      paths:
+        - path: /
+          pathType: Prefix
+  tls: []
+
+resources:
+  limits:
+    cpu: 500m
+    memory: 512Mi
+  requests:
+    cpu: 100m
+    memory: 256Mi
+
+autoscaling:
+  enabled: false
+  minReplicas: 1
+  maxReplicas: 5
+  targetCPUUtilizationPercentage: 80
+  # targetMemoryUtilizationPercentage: 80
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}
+
+podAnnotations: {}
+
+env:
+  - name: SPRING_PROFILES_ACTIVE
+    value: "default"
+  - name: MONGO_HOST
+    value: "mongo"
+  - name: MONGO_PORT
+    value: "27017"
+  - name: MONGO_USERNAME
+    valueFrom:
+      secretKeyRef:
+        name: twistreview-secrets
+        key: mongo-username
+  - name: MONGO_PASSWORD
+    valueFrom:
+      secretKeyRef:
+        name: twistreview-secrets
+        key: mongo-password
+
+secrets:
+  enabled: true
+  mongoUsername: ""
+  mongoPassword: ""
+
+serviceAccount:
+  create: true
+  name: ""
+  annotations: {}

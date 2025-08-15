@@ -1,0 +1,12 @@
+Thank you for installing the twistreview chart.
+
+1. Get the service URL:
+  - If using NodePort:
+    kubectl get svc {{ include "twistreview.fullname" . }} -o jsonpath='{.spec.ports[0].nodePort}'
+  - If using Ingress, configure DNS for the host in values.yaml.
+
+2. Port-forward to test locally:
+  kubectl port-forward svc/{{ include "twistreview.fullname" . }} 8080:{{ .Values.service.port }}
+
+3. Health check:
+  curl http://localhost:8080/actuator/health
