@@ -1,56 +1,48 @@
-# Default values for twistreview.
-replicaCount: 1
-
-contextPath: "/reviews"
+# Prod overrides for twistreview
+replicaCount: 2
 
 image:
   repository: crostonj/techtwist-review
   tag: "raspberry-pi"
   pullPolicy: IfNotPresent
-  pullSecrets: []
 
 service:
   type: ClusterIP
   port: 8080
-  annotations: {}
 
 ingress:
-  enabled: false
-  className: ""
+  enabled: true
+  className: "traefik"
   annotations: {}
   hosts:
-    - host: twistreview.local
+    - host: twistreview.example.com
       paths:
         - path: /
           pathType: Prefix
-  tls: []
+  tls:
+    - secretName: twistreview-tls
+      hosts:
+        - twistreview.example.com
 
 resources:
-  limits:
-    cpu: 500m
-    memory: 512Mi
   requests:
-    cpu: 100m
+    cpu: 200m
     memory: 256Mi
+  limits:
+    cpu: 1
+    memory: 1Gi
 
 autoscaling:
-  enabled: false
-  minReplicas: 1
-  maxReplicas: 5
-  targetCPUUtilizationPercentage: 80
-  # targetMemoryUtilizationPercentage: 80
-
-nodeSelector: {}
-
-tolerations: []
-
-affinity: {}
+  enabled: true
+  minReplicas: 2
+  maxReplicas: 6
+  targetCPUUtilizationPercentage: 70
 
 podAnnotations: {}
 
 env:
   - name: SPRING_PROFILES_ACTIVE
-    value: "default"
+    value: "prod"
   - name: SERVER_SERVLET_CONTEXT_PATH
     value: "/reviews"
   - name: MONGO_HOST
@@ -69,11 +61,7 @@ env:
         key: mongo-password
 
 secrets:
-  enabled: true
-  mongoUsername: ""
-  mongoPassword: ""
+  enabled: false
 
 serviceAccount:
   create: true
-  name: ""
-  annotations: {}

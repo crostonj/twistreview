@@ -1,22 +1,18 @@
-# Default values for twistreview.
+# Dev overrides for twistreview
 replicaCount: 1
-
-contextPath: "/reviews"
 
 image:
   repository: crostonj/techtwist-review
   tag: "raspberry-pi"
   pullPolicy: IfNotPresent
-  pullSecrets: []
 
 service:
   type: ClusterIP
   port: 8080
-  annotations: {}
 
 ingress:
-  enabled: false
-  className: ""
+  enabled: true
+  className: "traefik"
   annotations: {}
   hosts:
     - host: twistreview.local
@@ -26,25 +22,15 @@ ingress:
   tls: []
 
 resources:
-  limits:
-    cpu: 500m
-    memory: 512Mi
   requests:
-    cpu: 100m
+    cpu: 50m
+    memory: 128Mi
+  limits:
+    cpu: 250m
     memory: 256Mi
 
 autoscaling:
   enabled: false
-  minReplicas: 1
-  maxReplicas: 5
-  targetCPUUtilizationPercentage: 80
-  # targetMemoryUtilizationPercentage: 80
-
-nodeSelector: {}
-
-tolerations: []
-
-affinity: {}
 
 podAnnotations: {}
 
@@ -75,5 +61,3 @@ secrets:
 
 serviceAccount:
   create: true
-  name: ""
-  annotations: {}
