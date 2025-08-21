@@ -18,3 +18,9 @@ management:
   endpoint:
     health:
       show-details: always
+      probes:
+        enabled: true
+        liveness:
+          enabled: true
+        readiness:
+          enabled: true

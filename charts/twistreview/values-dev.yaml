@@ -56,8 +56,8 @@ env:
 
 secrets:
   enabled: true
-  mongoUsername: ""
-  mongoPassword: ""
+  mongoUsername: "jeff"
+  mongoPassword: "mypassword"
 
 serviceAccount:
   create: true
