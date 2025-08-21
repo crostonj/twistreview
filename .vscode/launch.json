@@ -24,6 +24,28 @@
                 "MONGO_PASSWORD": "mypassword"
                 // Add any other environment variables your application might need for local debugging
             }
+        },
+        {
+            "type": "java",
+            "name": "ImportReviewsUtility",
+            "request": "launch",
+            "mainClass": "com.twistreview.utility.ImportReviewsUtility",
+            "projectName": "twistreview",
+            "env": {
+                // Copied from TwistreviewApplication
+                "MONGO_HOST": "192.168.10.43",
+                "MONGO_PORT": "27017",
+                "MONGO_USERNAME": "jeff",
+                "MONGO_PASSWORD": "mypassword",
+                // Utility profile-specific variables
+                "UTILITY_MONGO_HOST": "192.168.10.43",
+                "UTILITY_MONGO_PORT": "27017",
+                "UTILITY_MONGO_USERNAME": "jeff",
+                "UTILITY_MONGO_PASSWORD": "mypassword",
+                "UTILITY_MONGO_AUTH_DB": "admin",
+                "UTILITY_INPUT": "classpath:data/productReview.json",
+                "UTILITY_DROP_COLLECTION": "false"
+            }
         }
     ]
 }

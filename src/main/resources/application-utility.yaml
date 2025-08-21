@@ -1,0 +1,15 @@
+spring:
+  main:
+    web-application-type: none
+  data:
+    mongodb:
+      host: ${UTILITY_MONGO_HOST:localhost}
+      port: ${UTILITY_MONGO_PORT:27017}
+      database: ${UTILITY_MONGO_DATABASE:reviews}
+      username: ${UTILITY_MONGO_USERNAME:}
+      password: ${UTILITY_MONGO_PASSWORD:}
+      authentication-database: ${UTILITY_MONGO_AUTH_DB:admin}
+
+utility:
+  input: classpath:data/productReview.json
+  dropCollection: false
